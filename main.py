@@ -24,7 +24,7 @@ def main():
         exit(1)
 
     # Send file to server
-    response = upload_file(parser.parse_args().file, "1h")
+    response = upload_file(parser.parse_args().file, "72h")
 
     if not response:
         print("Failed to upload file")
